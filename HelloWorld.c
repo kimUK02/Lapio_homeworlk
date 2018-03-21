@@ -3,8 +3,7 @@
 int main()
 {
 	printf("Hello, World!");
-	//了价钦聪寸
-
+	//目乖 皋技瘤 了价钦聪促 ばば 
 
 	system("pause");
 
