@@ -79,9 +79,9 @@ Key is Us3r_Ag3nt_@nd_R3f3r3r 라고 뜬다.
 <input type="submit" name="HaHa" value="MA==">
 ~~~
 
-*MA==* 이라는 botton 이 나타난다 . **여기서 MA== 뒤에 ==이들어가는 것으로 봐서 base64인것을 짐작할 수있다**
+*MA==* 이라는 botton 이 나타난다 . **여기서 MA 뒤에 ==이들어가는 것으로 봐서 base64인것을 짐작할 수있다**
 
-그래서 *MA==* 을 base64 decode해봤더니 1이라는 값이 나왔다.
+그래서 *MA==* 을 base64 decode해봤더니 0이라는 값이 나왔다.
 
 아무튼 이버튼을 누르면 
 
