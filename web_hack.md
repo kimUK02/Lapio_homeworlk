@@ -105,7 +105,7 @@ URL = 'http://wargame_sec.kongju.ac.kr/web/find/prob.php'
         res = requests.post(URL,data=data, cookies=cookies) #web 에 post
         print("attemp : {0}".format(i))
 
-    print(res.text[:res.text.find('<body>')+100]) #html파일에 있는 코드중 <body>에서 다음 100줄까지 출력
+    print(res.text[:res.text.find('<body>')+100]) #html파일에 있는 코드중 <body>에서 다음 100줄까지 찾아서 출력
 ```
 
 그래서 이것을 실행해보면 100번째 쯤에서 막힌다 *웹에서 막는듯*
