@@ -73,17 +73,18 @@ Key is Us3r_Ag3nt_@nd_R3f3r3r 라고 뜬다.
 <input type="hidden" name="HaHa" value="MA==">
 ~~~
 
-이런게 보이는데 *hidden* 을 *submit* 으로 바꾸면  
+이런게 보이는데 **여기서 MA 뒤에 ==이들어가는 것으로 봐서 base64인것을 짐작할 수있다**
+
+그래서 *MA==* 을 base64 decode해봤더니 0이라는 값이 나왔다.
+
+아무튼 *hidden* 을 *submit* 으로 바꾸면  
 
 ~~~py
 <input type="submit" name="HaHa" value="MA==">
 ~~~
 
-*MA==* 이라는 botton 이 나타난다 . **여기서 MA 뒤에 ==이들어가는 것으로 봐서 base64인것을 짐작할 수있다**
-
-그래서 *MA==* 을 base64 decode해봤더니 0이라는 값이 나왔다.
-
-아무튼 이버튼을 누르면 
+*MA==* 이라는 botton 이 나타난다. 
+이버튼을 누르면 
 
 Your Point : 1으로 점이올라간다.
 
@@ -144,7 +145,7 @@ Key is : Unc0mpleted_Devel0pment 가나온다.~~넘쉽다~~
 ~~~
 가 나온다.
 
-답:**p0s7_m3_1f_y0u_can**
+- 답:**p0s7_m3_1f_y0u_can**
 
 # 6.[WEb3_Project3](http://wargame_sec.kongju.ac.kr/web/web3_DJU/index.php)
 처음에 __이 페이지에서 이미 키를 드렸습니다.__ 라고 뜨는데 
@@ -157,7 +158,7 @@ Key: thisisKey
 
 라고되어있다.
 
-답:**thisisKey**
+- 답:**thisisKey**
 
 # 7.[Web4_Project3](http://wargame_sec.kongju.ac.kr/web/web4_DJU/index.php)
 처음 들어가면 있어보이는 페이지가 나오는데
@@ -180,7 +181,7 @@ LFI
 위의 코드를 보면 php로 game의 값을 받는다는 것인데 SQL injection 을 이용해서 url에 /index.php?game=flag 를 쓰면
 **Key is : L0cal_F1l3_1nclus10n!!** 가나온다.
 
-답:**L0cal_F1l3_1nclus10n!**
+- 답:**L0cal_F1l3_1nclus10n!**
 
 
 
