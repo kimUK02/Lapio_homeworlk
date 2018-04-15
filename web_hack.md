@@ -66,7 +66,7 @@ Key is Us3r_Ag3nt_@nd_R3f3r3r 라고 뜬다.
 
     Prize - Point 1000 : Flag
 
-    Your Point : 86
+    Your Point : 0
 가보이고 
 이페이지의 소스코드를 보면 
 ~~~py
