@@ -110,7 +110,7 @@ URL = 'http://wargame_sec.kongju.ac.kr/web/find/prob.php'
 
 그래서 이것을 실행해보면 100번째 쯤에서 막힌다 *웹에서 막는듯*
 
-그래서 ~~노가다~~ for i in range(1,1000) 이 코드의 range 값을 맞추면서 개속하면 
+그래서 ~~노가다~~ for i in range(1,1000) 이 코드의 range 값을 맞추면서 계속하면 
 결국
 
 **Flag is W1nn3r_C0ngr4tur4t1on</br>Prize - Point 1000 : Flag</br>Your Point : 1000<form method='POST**
