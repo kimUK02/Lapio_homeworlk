@@ -60,7 +60,7 @@ Key is Us3r_Ag3nt_@nd_R3f3r3r 라고 뜬다.
 1000점을 만들면 Flag가 나온다!
 1000을 만들어 주세요!
 
-[prob](linhttp://wargame_sec.kongju.ac.kr/web/find/prob.php)
+ [prob](http://wargame_sec.kongju.ac.kr/web/find/prob.php)
 
 가보이는데 prob에 들어가면 
 
