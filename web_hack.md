@@ -181,7 +181,7 @@ LFI
 위의 코드를 보면 php로 game의 값을 받는다는 것인데 SQL injection 을 이용해서 url에 /index.php?game=flag 를 쓰면
 **Key is : L0cal_F1l3_1nclus10n!!** 가나온다.
 
-- 답:**L0cal_F1l3_1nclus10n!**
+- 답:**L0cal_F1l3_1nclus10n!!**
 
 
 
