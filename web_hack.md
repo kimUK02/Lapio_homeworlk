@@ -184,7 +184,7 @@ LFI
 
 # 8.[Web5_Project3](http://wargame_sec.kongju.ac.kr/web/web5_DJU/index.php)
 
-처음에 
+처음에 ~~제환선배감사합니다~~
 ~~~html
 <?php
   // Key is : *******************
