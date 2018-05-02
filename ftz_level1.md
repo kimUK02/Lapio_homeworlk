@@ -1,7 +1,7 @@
 # Hackserschool FTZ level1
  ---
 
- 1. log in 해서 현재 디렉토리의  파일들을 보면 
+ - log in 해서 현재 디렉토리의  파일들을 보면 
 >[level1@ftz level1]$ ls -al
 >>-rw-r--r-- 1 root 47 Apr  4  2000 hint 
 
@@ -12,7 +12,7 @@
 라는 문구가 보인다. 
 *SetUID란: 임시적인 root권한을 가진 ID이다.*
 
-2. 그래서 find 명령어를쓰면 
+- 그래서 find 명령어를쓰면 
 >$ find / -user level -perm -4000 2> /bin/null
 
 여기서
@@ -28,7 +28,7 @@
 
 **이 뜻은 ExecuteMe가 디렉터리가 아니라는 뜻이다.**
 
-3. 그래서 ExecuteMe를 실행해보았다.
+- 그래서 ExecuteMe를 실행해보았다.
 >$ cd /bin 
 >$./ExecuteMe
 
@@ -52,7 +52,7 @@
 
 라고 하고있는데 
 
-3. 마지막에  **[level2@ftz level2]$** 라고 하는것이 있다 그래서 level2의 /bin/bash *즉 명령어를 실행할수 있는 곳?? (맞나?)*
+- 마지막에  **[level2@ftz level2]$** 라고 하는것이 있다 그래서 level2의 /bin/bash *즉 명령어를 실행할수 있는 곳??* ~~맞나?~~
 으로가면 
 >$ /bin/bash
 
