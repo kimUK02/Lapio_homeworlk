@@ -1,4 +1,4 @@
-# Hackserschool FTZ level3
+# Hackserschool FTZ level4
 ---
 - 앞에서 했던 것 처럼 hint를 보면 누군가                
     /etc/xinetd.d/에 백도어를 심어놓았다.!  
